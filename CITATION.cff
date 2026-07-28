@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below, and carry its evidence-typing caveat into your work: most acceptance rates and all desk-rejection rates in this release are estimates, not publisher-stated values."
+type: dataset
+title: "Journal intelligence dataset: acceptance rates, review times and desk-rejection rates for 57 journals, with per-figure evidence typing"
+abstract: "Acceptance rates, review timelines, desk-rejection rates and submission limits for 57 journals across 23 publishers and 17 fields. The distinguishing feature is that every volatile figure carries an evidence type (official, reported, estimated), so a reuser can tell measurement from inference. That typing is also the dataset's main finding: none of the 57 desk-rejection rates is officially published, only 4 of 57 acceptance rates are reported by any credible source, and only 1 review time is official. The data researchers are told to use when choosing a journal is largely not published by the journals. Four columns (difficulty score, difficulty band, primary fit signal, primary rejection reason) are Manusights editorial judgments derived from pre-submission review work rather than third-party data. The panel favours journals researchers most often ask about and is not a representative sample of the literature."
+authors:
+  - family-names: "Jia"
+    given-names: "Erik"
+    affiliation: "Manusights"
+    email: "erik@manusights.com"
+contact:
+  - family-names: "Jia"
+    given-names: "Erik"
+    email: "team@manusights.com"
+    affiliation: "Manusights"
+url: "https://manusights.com/resources/journal-intelligence"
+repository-code: "https://github.com/Manusights/journal-intelligence-dataset"
+license: CC-BY-4.0
+version: "2026.03.30-mvp1"
+date-released: "2026-03-30"
+keywords:
+  - "scholarly publishing"
+  - "acceptance rate"
+  - "peer review"
+  - "desk rejection"
+  - "journal selection"
+  - "bibliometrics"
+  - "scientometrics"
+  - "research data provenance"
+  - "evidence typing"
+preferred-citation:
+  type: dataset
+  title: "Journal intelligence dataset: acceptance rates, review times and desk-rejection rates for 57 journals, with per-figure evidence typing"
+  authors:
+    - family-names: "Jia"
+      given-names: "Erik"
+      affiliation: "Manusights"
+  url: "https://manusights.com/resources/journal-intelligence"
+  publisher:
+    name: "Zenodo"
+  year: 2026
+  version: "2026.03.30-mvp1"

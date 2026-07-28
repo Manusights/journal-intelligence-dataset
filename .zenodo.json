@@ -1,0 +1,27 @@
+{
+  "title": "Journal intelligence dataset: acceptance rates, review times and desk-rejection rates for 57 journals, with per-figure evidence typing",
+  "upload_type": "dataset",
+  "description": "<p>Acceptance rates, review timelines, desk-rejection rates and submission limits for <strong>57 journals across 23 publishers and 17 fields</strong>.</p><p><strong>The distinguishing feature is provenance.</strong> Every volatile figure carries an evidence type (<code>official</code>, <code>reported</code>, <code>estimated</code>), so a reuser can tell measurement from inference before citing it.</p><p><strong>That typing is also the main finding.</strong> None of the 57 desk-rejection rates is officially published: all 57 are estimates. Only 4 of 57 acceptance rates are reported by any credible source, and none are official. Only 1 review time is official. The data researchers are routinely told to use when choosing a journal is, for the most part, not published by the journals.</p><p><strong>Contents.</strong> CSV (26 columns, display strings) and JSON (29 fields, adding numeric day counts and array fields that the CSV flattens; prefer the JSON for analysis). Both carry version tag 2026.03.30-mvp1.</p><p><strong>Read the estimated columns as inference, not measurement.</strong> Citing a specific estimated acceptance rate as a fact about that journal is a misuse of this dataset. Four further columns (difficulty score, difficulty band, primary fit signal, primary rejection reason) are Manusights editorial judgments drawn from pre-submission review work, not third-party data; treat them as opinion with a stated basis.</p><p><strong>Coverage.</strong> Selection favoured journals researchers most often ask us about, which skews toward high-profile venues. 57 journals is a starting panel, not a census, and not a representative sample of the literature.</p><p>Corrections welcome: a publisher-stated figure will replace an estimate in the next version, with its type upgraded to official.</p>",
+  "creators": [
+    { "name": "Jia, Erik", "affiliation": "Manusights" }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "2026.03.30-mvp1",
+  "language": "eng",
+  "keywords": [
+    "scholarly publishing",
+    "acceptance rate",
+    "peer review",
+    "desk rejection",
+    "journal selection",
+    "bibliometrics",
+    "scientometrics",
+    "research data provenance",
+    "evidence typing"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://manusights.com/resources/journal-intelligence", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://manusights.com/acceptance-rates", "relation": "isDocumentedBy", "scheme": "url" }
+  ]
+}
