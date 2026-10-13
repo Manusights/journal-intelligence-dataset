@@ -1,5 +1,7 @@
 # Journal intelligence dataset: 57 journals, with confidence marked on every figure
 
+> **Newer, sourced tables (October 2026).** This repo is an early snapshot (data version 2026.03.30) whose figures are mostly estimates, as the table below says. The maintained tables now link every figure to the journal's or a study's own published source: [desk-rejection rates for 88 journals](https://manusights.com/blog/desk-rejection-rate-by-journal) and [AI-use policies for 100 journals](https://manusights.com/blog/journal-ai-policies-2026). Use those for anything you plan to cite. This snapshot stays here unchanged so earlier citations still resolve.
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Data version](https://img.shields.io/badge/data-2026.03.30--mvp1-blue.svg)](./data)
 
